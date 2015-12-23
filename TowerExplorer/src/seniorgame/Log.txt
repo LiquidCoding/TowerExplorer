@@ -1,0 +1,53 @@
+This is a log of each edit, addition, deletion, or creation done to this game.
+Every log should be done in this manner: 
+
+Date (Unless another change has already been added that same day.)
+Name - The file edited - The actual change.
+
+example
+
+1/1/2014
+John Smith - dice.d4 - Created random number generator from 1 to 4.
+Jane Smith - dice.d6 - Fixed random number generator. It was randomly picking a number between
+	0 and 5. Now it is picking one between 1 and 6.
+
+1/3/2014
+John Smith - tiles.tilegen - Started file.
+
+1/4/2014
+John Smith - tiles.tilegen - Coded array to hold tile locations.
+
+This is to keep all changes cataloged and managed.
+----------------------------------------------------------------------------------------------
+
+6/1/2014
+Brent Wood - Seniorgame, Seniorgame.characters, Seniorgame.dice, Seniorgame.libs,
+    Seniorgame.tiles - Created these packages and coded d4, d6, d8, d10, d12,
+    d20 and d100 in the Seniorgame.dice package.
+
+8/18/2014
+Brent Wood - Seniorgame.SeniorGame - SeniorGame been made into the Main Menu of 
+    the game. An applet is inside it and may need to hold all of the visual
+    aspects and just call all of the other needs from other methods.
+Brent Wood - seniorgame.d4, d6, d10, d12, d20, and d100 - all of these classes
+    have been updated to allow a return of the number generated for any number
+    of dice. They are untested at this time.
+
+10/17/2014
+Brent Wood - Seniorgame.d4, d6, d10, d12, d20, and d100 - all of theses have
+    been collected into one .java. This is to help save space and for easier
+    access to each number range.
+Brent Wood - Seniorgame.SeniorGame, Seniorgame.TowerExplorer - deleted
+    Seniorgame.SeniorGame and replaced it with a Jframe Seniorgame.TowerExplorer.
+Brent Wood - Seniorgame.characters.CharacterSelect - created the main class
+    CharacterSelect and linked it to TowerExplorer.
+
+12/15/2014
+Brent Wood - SeniorGame.panels, SeniorGame.TowerExplorer - created several panels
+    and set each one up in SeniorGame.TowerExplorer to be called and used.
+
+1/15/2015
+Brent Wood - SeniorGame.panels - created CharacterSelect, ExitValidation,
+    Inventory, and Options panels.
+Brent Wood - SeniorGame.panels - changed the name and refactored MainMenu.java
+    in SeniorGame.panels to Login.java.
